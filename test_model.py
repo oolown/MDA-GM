@@ -114,7 +114,7 @@ def test(model):
 
 if __name__ == '__main__':
 
-    model = models.MFSAN(num_classes=31)
+    model = models.MDAGM(num_classes=31)
     print(model)
     if cuda:
         model.cuda()
